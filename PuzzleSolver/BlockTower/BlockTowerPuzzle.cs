@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PuzzleSolver.BlockTower
 {
-    internal class BlockTowerPuzzle : Puzzle
+    public class BlockTowerPuzzle : Puzzle
     {
         private List<Block> blocks;
         public BlockTowerPuzzle(List<Block> blocks)
